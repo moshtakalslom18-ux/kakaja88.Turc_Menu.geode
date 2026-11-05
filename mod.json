@@ -1,0 +1,28 @@
+{
+    "geode": "3.3.0",
+    "id": "yourname.safe_cheat_mod",
+    "version": "1.1.0",
+    "name": "Safe Cheat Mod Pro",
+    "developer": "YourName",
+    "description": "Forced safe mode cheat suite containing Noclip, Infinite Jump, Speedhack, and an offline Macro Bot.",
+    "settings": {
+        "toggle-noclip": {
+            "name": "Noclip",
+            "type": "bool",
+            "default": true
+        },
+        "toggle-inf-jump": {
+            "name": "Infinite Jump",
+            "type": "bool",
+            "default": false
+        },
+        "speed-multiplier": {
+            "name": "Speedhack Multiplier",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.00007,
+            "max": 148.4,
+            "control": "slider"
+        }
+    }
+}
